@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y install \
     uidmap gawk wget git-core diffstat unzip texinfo gcc-multilib \
     build-essential chrpath socat cpio python python3 python3-pip python3-pexpect \
-    xz-utils debianutils iputils-ping libsdl1.2-dev xterm tar locales pxz cmake \
+    xz-utils debianutils iputils-ping libsdl1.2-dev xterm tar locales pxz cmake gdb\
     libboost-all-dev ninja-build qt5-default git libqt5serialport5-dev libqt5charts5-dev \
     qtdeclarative5-dev qtdeclarative5-private-dev libqt5websockets5-dev libqt5test5 \
     libqt5svg5-dev qtquickcontrols2-5-dev qtbase5-private-dev libqt5x11extras5-dev \
