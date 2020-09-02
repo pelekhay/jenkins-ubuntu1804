@@ -6,7 +6,7 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y install \
     libboost-all-dev ninja-build qt5-default git libqt5serialport5-dev libqt5charts5-dev \
     qtdeclarative5-dev qtdeclarative5-private-dev libqt5websockets5-dev libqt5test5 \
     libqt5svg5-dev qtquickcontrols2-5-dev qtbase5-private-dev libqt5x11extras5-dev \
-    qml-module-qtqml-statemachine qml-module-qt-labs-settings \
+    qml-module-qtqml-statemachine qml-module-qt-labs-settings qml-module-qt-labs-platform \
     qml-module-qtquick-controls2 qml-module-qtquick2 qml-module-qttest \
     libssl-dev libxml2-dev lcov xvfb p7zip tzdata libxss-dev
 
