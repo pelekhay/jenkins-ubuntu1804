@@ -8,7 +8,7 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y install \
     libqt5svg5-dev qtquickcontrols2-5-dev qtbase5-private-dev libqt5x11extras5-dev \
     qml-module-qtqml-statemachine qml-module-qt-labs-settings qml-module-qt-labs-platform \
     qml-module-qtquick-controls2 qml-module-qtquick2 qml-module-qttest \
-    libssl-dev libxml2-dev lcov xvfb p7zip tzdata libxss-dev
+    libssl-dev libxml2-dev lcov xvfb p7zip tzdata libxss-dev libkf5networkmanagerqt-dev
 
 RUN locale-gen en_US.UTF-8 && update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 ENV LANG en_US.UTF-8
