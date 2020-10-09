@@ -13,8 +13,8 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractve apt-get -y install \
     qtdeclarative5-dev qtdeclarative5-private-dev libqt5websockets5-dev libqt5test5 \
     libqt5svg5-dev qtquickcontrols2-5-dev qtbase5-private-dev libqt5x11extras5-dev \
     qml-module-qtqml-statemachine qml-module-qt-labs-settings qml-module-qt-labs-platform \
-    qml-module-qtquick-controls2 qml-module-qtquick2 qml-module-qttest \
-    libssl-dev libxml2-dev xvfb p7zip tzdata libxss-dev libkf5networkmanagerqt-dev
+    qml-module-qtquick-controls2 qml-module-qtquick2 qml-module-qttest libx11-xcb-dev \
+    libssl-dev libxml2-dev xvfb p7zip tzdata libxss-dev libkf5networkmanagerqt-dev 
 
 COPY --from=0 /usr/local /usr/local
 
