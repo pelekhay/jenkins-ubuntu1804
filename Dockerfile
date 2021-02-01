@@ -11,7 +11,7 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractve apt-get -y install \
     xz-utils debianutils iputils-ping libsdl1.2-dev xterm tar locales pxz cmake gdb\
     libboost-all-dev ninja-build qt5-default git libqt5serialport5-dev libqt5charts5-dev \
     qtdeclarative5-dev qtdeclarative5-private-dev libqt5websockets5-dev libqt5test5 \
-    libqt5svg5-dev qtquickcontrols2-5-dev qtbase5-private-dev libqt5x11extras5-dev \
+    libqt5svg5-dev qtquickcontrols2-5-dev qtbase5-private-dev libqt5x11extras5-dev libqt5xml5 \
     qml-module-qtqml-statemachine qml-module-qt-labs-settings qml-module-qt-labs-platform \
     qml-module-qtquick-controls2 qml-module-qtquick2 qml-module-qttest libx11-xcb-dev \
     libssl-dev libxml2-dev xvfb p7zip tzdata libxss-dev libkf5networkmanagerqt-dev 
